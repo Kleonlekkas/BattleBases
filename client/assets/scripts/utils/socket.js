@@ -246,7 +246,7 @@ function lerpData(data) {
                     app.game.myCharacters[i].alpha = 0.05;
 
                     //not lerping
-                    //app.game.myCharacters[i].position = data.myCharacters[n].position;
+                    app.game.myCharacters[i].position = data.myCharacters[n].position;
 
 
                     data.myCharacters.splice(n, 1);
